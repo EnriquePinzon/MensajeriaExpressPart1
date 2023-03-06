@@ -1,5 +1,5 @@
 
-public abstract class Usuario {
+public  class Usuario {
 
     private int cedula;
     private String nombre;

@@ -2,10 +2,10 @@ import java.time.LocalTime;
 
 public class Main {
     public static void main(String[] args) {
-        int cedulaCliente1 = GeneradorNumero.generarCedulaCliente(); //Generando cedula aleatoria para cliente
-        int cedulaEmpleado1 = GeneradorNumero.generarCedulaEmpleado(); //Generando cedula aleatoria para empleado.
-        String numeroGuia1 = GeneradorNumero.generarNumeroGuia(); //Generando numero de guia aleatorio.
-        String idPaquete1= GeneradorNumero.generarIdPaquete(); //Generando id de paquete.
+        int cedulaCliente1 = NumeroAzar.generarCedulaCliente(); //Generando cedula aleatoria para cliente
+        int cedulaEmpleado1 = NumeroAzar.generarCedulaEmpleado(); //Generando cedula aleatoria para empleado.
+        String numeroGuia1 = NumeroAzar.generarNumeroGuia(); //Generando numero de guia aleatorio.
+        String idPaquete1= NumeroAzar.generarIdPaquete(); //Generando id de paquete.
         LocalTime hora = LocalTime.now(); //Generando hora actual mediante metodo estatico .now();
 
         Cliente cliente1 = new Cliente(cedulaCliente1,"Enrique","Pinzon","3005434344","enrique@gmail.com", "Calle 1E # 16-16", "Tokyo");

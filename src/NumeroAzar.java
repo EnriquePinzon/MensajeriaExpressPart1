@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class GeneradorNumero {
+public class NumeroAzar {
 
     public  static int generarCedulaCliente(){
         Random random = new Random();
